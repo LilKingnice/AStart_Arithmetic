@@ -49,6 +49,5 @@ namespace Script
             this.y = y;
             this.type = type;
         }
-
     }
 }

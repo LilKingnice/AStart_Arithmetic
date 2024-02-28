@@ -84,8 +84,7 @@ namespace Script
             closedList.Add(start);
             while (true)
             {
-
-
+                
                 //左上
                 FindNearlyNodeToOpenList(start.x - 1, start.y - 1, 1.4f, start, end);
                 //正上

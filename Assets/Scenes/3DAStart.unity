@@ -328,7 +328,7 @@ MonoBehaviour:
   offsetY: 2
   mapW: 5
   mapH: 5
-  difficulty: 64.2
+  difficulty: 15.1
   RedMaterial: {fileID: 2100000, guid: b7bea36ff70a9b742913e41119681ccb, type: 2}
   YellowMaterial: {fileID: 2100000, guid: 1b4752b44e92cde41ae2c659db8f20c5, type: 2}
   GreenMaterial: {fileID: 2100000, guid: 817419050f3a81140bbfa6e612e0f6ea, type: 2}

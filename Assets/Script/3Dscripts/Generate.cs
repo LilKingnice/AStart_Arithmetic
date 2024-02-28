@@ -47,6 +47,7 @@ public class Generate : MonoBehaviour
 
                 obj.transform.position =new Vector3(beginX + i * offsetX, beginY + j * offsetY, 0);
                 obj.name = i + "_" + j;
+                
                 //存储cube到容器中
                 cubes.Add(obj.name, obj);
                 
@@ -91,7 +92,7 @@ public class Generate : MonoBehaviour
                     //自动寻路
                     list = AstartManager.Instance.FindPath(beginPos, endPos);
                     
-                    cubes[(int)beginPos.x + "_" + (int)beginPos.y].GetComponent<MeshRenderer>().material = DefualMaterial;
+                    //cubes[(int)beginPos.x + "_" + (int)beginPos.y].GetComponent<MeshRenderer>().material = DefualMaterial;
                     
                     if (list != null) 
                     {
